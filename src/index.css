@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HostGroteskRegular";
+  src: url(/src/assets/fonts/HostGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: "HostGroteskMedium";
+  src: url(/src/assets/fonts/HostGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: "HostGroteskBold";
+  src: url(/src/assets/fonts/HostGrotesk-Bold.ttf);
+}
