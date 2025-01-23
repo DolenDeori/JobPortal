@@ -11,6 +11,8 @@ export const jobPostings = [
     type: "Full-Time",
     postedDate: "2023-10-01",
     skillsRequired: ["JavaScript", "React", "Node.js", "HTML", "CSS"],
+    companyLogo:
+      "https://img.icons8.com/?size=100&id=17949&format=png&color=000000",
   },
   {
     id: 2,
@@ -24,6 +26,8 @@ export const jobPostings = [
     type: "Full-Time",
     postedDate: "2023-10-05",
     skillsRequired: ["Python", "R", "Machine Learning", "Data Analysis", "SQL"],
+    companyLogo:
+      "https://img.icons8.com/?size=100&id=17949&format=png&color=000000",
   },
   {
     id: 3,
@@ -43,6 +47,8 @@ export const jobPostings = [
       "JIRA",
       "Market Research",
     ],
+    companyLogo:
+      "https://img.icons8.com/?size=100&id=17949&format=png&color=000000",
   },
   {
     id: 4,
@@ -62,6 +68,8 @@ export const jobPostings = [
       "User Research",
       "Wireframing",
     ],
+    companyLogo:
+      "https://img.icons8.com/?size=100&id=17949&format=png&color=000000",
   },
   {
     id: 5,
@@ -75,6 +83,8 @@ export const jobPostings = [
     type: "Full-Time",
     postedDate: "2023-10-20",
     skillsRequired: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+    companyLogo:
+      "https://img.icons8.com/?size=100&id=17949&format=png&color=000000",
   },
   {
     id: 6,
@@ -94,5 +104,7 @@ export const jobPostings = [
       "Content Creation",
       "Analytics",
     ],
+    companyLogo:
+      "https://img.icons8.com/?size=100&id=17949&format=png&color=000000",
   },
 ];

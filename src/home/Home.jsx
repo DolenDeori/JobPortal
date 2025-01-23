@@ -1,5 +1,6 @@
 import React from "react";
 import { jobPostings } from "../constant";
+import { CustomButton } from "../components/CustomButton";
 
 export default function Home() {
   return (
@@ -35,18 +36,27 @@ export default function Home() {
       </section>
       <section className="bg-gray-100 lg:px-16 md:px-8 px-4 py-8">
         <h1 className="font-HostGroteskBold text-3xl">Recent Job Postings</h1>
-        <div className="grid grid-flow-col mt-10 gap-8 grid-rows-3">
+        <div className="grid grid-flow-row mt-10 gap-8 grid-cols-2">
           {jobPostings.map((item) => (
-            <div key={item.id} className="p-4 bg-gray-600 rounded text-white">
-              <div>
-                <h1 className="font-HostGroteskBold text-xl">
-                  {item.jobTitle}
-                </h1>
-                <p className="font-HostGroteskRegular">{item.description}</p>
-              </div>
+            <div key={item.id} className="bg-gray-200 p-4 rounded">
+              <img
+                src={`${item.companyLogo}`}
+                alt={`${item.company} company logo`}
+                className="h-[30px] w-[30px]"
+              />
+              <h1 className="font-HostGroteskMedium mt-4 text-lg">
+                {item.jobTitle}
+              </h1>
+              <p className="font-HostGroteskRegular mb-5">{item.description}</p>
+              <CustomButton title={"View Job"} />
             </div>
           ))}
         </div>
+        <CustomButton
+          className={"mt-5"}
+          bgVarient={"primary"}
+          title={"View All Job Posting"}
+        />
       </section>
     </main>
   );
