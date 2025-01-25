@@ -84,7 +84,7 @@ export const Footer = () => {
                 target="_blank"
               >
                 Investor Relations{" "}
-                <span class="material-symbols-outlined text-lg">
+                <span className="material-symbols-outlined text-lg">
                   open_in_new
                 </span>
               </a>
@@ -96,7 +96,7 @@ export const Footer = () => {
                 target="_blank"
               >
                 Blog{" "}
-                <span class="material-symbols-outlined text-lg">
+                <span className="material-symbols-outlined text-lg">
                   open_in_new
                 </span>
               </a>
@@ -131,7 +131,7 @@ export const Footer = () => {
             <li>
               <a href="#" className="flex items-center gap-1">
                 Privacy{" "}
-                <span class="material-symbols-outlined text-lg">
+                <span className="material-symbols-outlined text-lg">
                   open_in_new
                 </span>
               </a>
@@ -139,7 +139,7 @@ export const Footer = () => {
             <li>
               <a href="#" className="flex items-center gap-1">
                 Applicant & Candidate Privacy{" "}
-                <span class="material-symbols-outlined text-lg">
+                <span className="material-symbols-outlined text-lg">
                   open_in_new
                 </span>
               </a>
@@ -147,7 +147,7 @@ export const Footer = () => {
             <li>
               <a href="#" className="flex items-center gap-1">
                 Terms{" "}
-                <span class="material-symbols-outlined text-lg">
+                <span className="material-symbols-outlined text-lg">
                   open_in_new
                 </span>{" "}
               </a>
@@ -156,7 +156,7 @@ export const Footer = () => {
         </div>
         <a href="#" className="font-HostGroteskRegular flex items-center gap-1">
           Help
-          <span class="material-symbols-outlined text-lg">
+          <span className="material-symbols-outlined text-lg">
             open_in_new
           </span>{" "}
         </a>
