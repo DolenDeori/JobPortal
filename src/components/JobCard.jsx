@@ -62,7 +62,7 @@ const Card = ({
     </div>
 
     <div className="flex justify-between mt-4 text-xs font-HostGroteskRegular text-gray-600">
-      <p>Posted {postedDate} day ago</p>
+      <p>Posted {postedDate}</p>
       <a
         href="#"
         className="text-sm flex gap-1 items-center justify-center text-gray-800 hover:text-blue-600"
