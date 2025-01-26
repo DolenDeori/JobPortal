@@ -1,5 +1,3 @@
-![Banner](https://github.com/DolenDeori/JobPortal/blob/main/git_img/gitBanner.png)
-
 ![Banner](./git_img/gitBanner.png)
 
 # Welcome to this repo
